@@ -3,7 +3,7 @@ services:
     name: requirement-analysis-agent
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: PYTHONPATH=. python app.py
     envVars:
       - key: GROQ_API_KEY
         sync: false

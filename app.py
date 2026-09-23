@@ -12,6 +12,9 @@ if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
+# Ensure project root directory is in sys.path for cloud deployment (e.g. Render)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 import gradio as gr
 from dotenv import load_dotenv
 
