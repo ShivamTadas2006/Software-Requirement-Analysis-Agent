@@ -1,0 +1,14 @@
+================================================================================
+SAMPLE 1: ONLINE FOOD DELIVERY PLATFORM (QUICKBITE)
+================================================================================
+Create an online food delivery system where customers can register, login, browse restaurants, add food to cart, place orders and track deliveries. Admin should manage restaurants, menus and users. The system should be fast, secure, and handle high traffic during peak meal hours. Restaurant managers must be able to update item availability, and delivery partners should receive turn-by-turn navigation.
+
+================================================================================
+SAMPLE 2: INTEGRATED HOSPITAL INFORMATION SYSTEM (CAREPULSE)
+================================================================================
+Develop a hospital management system for patient registration, appointment scheduling with doctors, medical records management, laboratory test results, and billing. Doctors can view patient history and prescribe medications. Nurses record vitals. The system must maintain strict patient confidentiality, support emergency access, generate itemized invoices, and allow lab technicians to publish diagnostic reports quickly.
+
+================================================================================
+SAMPLE 3: SMART CAMPUS & ACADEMIC RESOURCE PORTAL (EDUSPHERE)
+================================================================================
+Build a smart campus portal where students can view course schedules, track attendance, check grades, and borrow library books. Faculty can post assignments and mark attendance. Librarian manages book inventory, issues, and overdue fines. The system should be accessible on mobile phones, integrate with campus single sign-on, send low-attendance alerts if below 75%, and sustain peak traffic during semester grade release.

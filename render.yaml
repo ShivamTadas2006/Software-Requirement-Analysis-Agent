@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: requirement-analysis-agent
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: MODEL_NAME
+        value: llama-3.3-70b-versatile
+      - key: OPENAI_API_KEY
+        sync: false
